@@ -1,0 +1,680 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.headerlogo {
+    width: 34px;
+    height: 34px;
+    filter: drop-shadow(0px 2px 5px #363b42);
+}
+
+#headerbrand {
+    padding-top: 5px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 125%;
+    text-align: left;
+    color: #292F36;
+    text-shadow: 0px 2px 5px #363b42;
+
+}
+
+.headerlink {
+    line-height: 125%;
+    text-align: center;
+    width: auto;
+    color: #292F36;
+    text-shadow: 0px 1px 2px #75797e;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+}
+
+.banner {
+    height: 758px;
+    margin-top: 2%;
+    background-color: #F4F0EC;
+    background-image: url(./IMAGES/Photo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 60px;
+
+
+}
+
+.intro {
+    padding-top: 18%;
+    padding-left: 5%;
+}
+
+.bannermainheading {
+    resize: horizontal;
+    resize: vertical;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 125%;
+    width: auto;
+    text-align: left;
+    color: #292F36;
+    text-shadow: 0px 3px 3px #75797e;
+
+
+}
+
+.bannersubcont {
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    height: auto;
+    text-align: left;
+    color: #4D5053;
+    text-shadow: 0px 1px 2px #75797e;
+}
+
+.bannerbutton {
+    padding: 26px 49px 26px 48px;
+    background-color: #292F36;
+    filter: drop-shadow(0px 2px 5px #292F36);
+    border: none;
+    border-radius: 15px;
+    font-family: "Jost", sans-serif;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-align: center;
+    width: auto;
+    color: white;
+}
+
+.bannerarrow {
+    width: 15.14px;
+    height: 13.18px;
+    color: #CDA274;
+}
+
+.work {
+    background-color: white;
+    margin-top: 10%;
+}
+
+.workdiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.workheads {
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 125%;
+    color: #292F36;
+    text-shadow: 0px 1px 3px #75797e;
+}
+
+.workparas {
+    padding-top: 3%;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+
+.workbutton {
+    padding-top: 7%;
+    border: none;
+    background-color: transparent;
+    color: #4D5053;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+
+}
+
+.about {
+    margin-top: 10%;
+
+}
+
+.aboutdiv {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.aboutcontent1{
+    padding-top: 5%;
+}
+
+.aboutheading {
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-align: left;
+    color: #292F36;
+    text-shadow: 0px 1px 2px #75797e;
+}
+
+.aboutpara {
+    padding-top: 5%;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #4D5053;
+}
+
+.aboutcall {
+    margin-top: 5%;
+
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: #F4F0EC;
+    border-radius: 50px;
+}
+
+.aboutcallicon {
+    width: 32px;
+    height: 32px;
+    color: #CDA274;
+    padding: 30px;
+    text-align: left;
+    font-size: 32px;
+}
+
+.aboutcallnum{
+    margin-top: 5%;
+    display: inline-block;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #4D5053;
+}
+
+.aboutcalldes{
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #4D5053;
+    font-weight: 400;
+}
+
+.b2{
+    margin-top: 5%;
+    display: block;
+}
+
+.aboutphoto{
+    width: 653px;
+    height: 700px;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 260px;
+}
+
+.testimonials{
+    margin-top: 10%;
+    padding-bottom: 7%;
+    background-color: #F4F0EC;
+    border-radius: 80px;
+}
+
+.testcardss{
+    width: 370px;
+    height: 339px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 3%;
+    margin-top: 3%;
+    border: none;
+    border-radius: 50px;
+}
+
+.testimonialsheading{
+    padding-top: 5%;
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #292F36;
+    text-shadow: 0px 1px 2px #75797e;
+}
+
+.testimonialscard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.testimonialsimg{
+    display: inline;
+}
+
+
+.testicardhead{
+    padding-left: 5%;
+    padding-top: 25%;
+    display: inline-block;
+
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #292F36;
+}
+
+.testheadspan{
+    display: inline;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+
+.testimonialspara{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #4D5053;
+}
+
+.clntlogdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo1{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+
+
+/*  */
+.clntlogo{
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+
+.project{
+    margin-top: 10%;
+}
+.projectheaddiv{
+    text-align: center;
+}
+.projecthead{
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #292F36;
+}
+.projectsubhead{
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+
+.projectdivflex{
+    margin-top: 93px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: start;
+}
+
+.project01{
+    width: 619px;
+}
+.projectimghead{
+    display: inline-block;
+    margin-top: 24px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #292F36;
+    text-shadow: 0px 1px 2px #75797e;
+}
+.projectimgsub{
+    display: inline-block;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4D5053;
+    text-shadow: 0px 0px 0px;
+
+}
+.projecticondiv{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10%;
+    width: 70px;
+    height: 70px;
+    background-color: #F4F0EC;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.projecticon{
+    width: 8px;
+    height: 18px;
+    color: #292F36;
+    border: none;
+    border-radius: 50px;
+}
+.projectimg1{
+    width: 548px;
+    height: 525px;
+    border-top-right-radius: 90px;
+}
+.projectimg2{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 90px;
+}
+.prjdiv{
+    margin-top: 56px;
+}
+.projectimg3{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 90px;
+}
+.projectimg4{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 90px;
+}
+
+.counter{
+    margin-top: 10%;
+    width: 100%;
+    height: 457px;
+    background-color: #F4F0EC;
+}
+.counterdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 457px;
+    text-align: center;
+
+}
+.counterhead{
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-size: 85px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #CDA274;
+}
+.countersubhead{
+    text-align: start;
+    margin-top: 16px;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+.yrexpline{
+    height: 130px;
+    width: 1px;
+    background-color: #CDA274;
+}
+
+.blog{
+    margin-top: 10%;
+}
+.blogheading{
+    text-align: center;
+}
+.bloghead{
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #292F36;
+    text-shadow: 0px 1px 2px #75797e;
+}
+.blogsubhead{
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+.blogflexdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 52px;
+}
+.blogcontentdiv{
+    border: solid 1px #E7E7E7;
+    border-radius: 50px;
+    height: 500px;
+    width: 340px;
+    background-color: white;
+}
+.blogmainimg{
+    padding: 21px 21px 0px 21px;
+    position: absolute;
+    width: 340px;
+    height: 289.27px;
+}
+.blogimgsubheaddiv{
+    width: 124px;
+    height: 41px;
+    background-color: #F4F0EC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 35px;
+}
+.blogimgsubhead{
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+.blogdivhead{
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 2%;
+    color: #292F36;
+    padding: 21px 21px 0px 21px;
+    margin-top: 82%;
+}
+.blogdateicondiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 21px 0px 21px;
+}
+.blogdate{
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    line-height:150%;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+.blogicondiv{
+    width: 52px;
+    height: 52px;
+    background-color: #F4F0EC;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.blogicon{
+    width: 8px;
+    height: 18px;
+    color: #292F36;
+    border: none;
+    border-radius: 50px;
+}
+#cont2{
+    background-color: #F4F0EC;
+}
+#iccont2{
+    background-color: white;
+}
+
+.contact{
+    margin-top: 10%;
+    height: 374px;
+    background-color: #292F36;
+    border-radius: 80px;
+}
+.contactdiv{
+    padding: 80px 315px;
+    text-align: center;
+}
+.contacthead{
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: white;
+}
+.contactsubhead{
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: white;
+}
+.contactbutton{
+    margin-top: 32px;
+    padding: 26px 37px;
+    color: white;
+    background-color: #CDA274;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 125%;
+    letter-spacing: 2%;
+    border-radius: 20px;
+    text-shadow: 0px 1px 2px #a78866;
+}
+.contactarrow{
+    width: 15.14px;
+    height: 13.18px;
+    color: #292F36;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 10%;
+}
+.footerflexdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footerlogo{
+    padding-right: 10px;
+}
+#footerheader{
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 125%;
+    color: #292F36;
+    display: inline;
+}
+.footerdes{
+    margin-top: 18px;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #4D5053;
+    margin-bottom: 31px;
+}
+.footerlist{
+    list-style: none;
+    display: inline;
+    color: #292F36;
+    padding: 0px 23% 0px 0px;
+    margin-left: -7%;
+}
+.footerheads{
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #292F36;
+    margin-bottom: 9px;
+}
+.footerlinks{
+    text-decoration: none;
+    color: #4D5053;
+    font-family: "Jost", sans-serif;
+    line-height: 300%;
+    letter-spacing: 1%;
+    display: block;
+    font-size: 22px;
+}
+.fottlinkspcl{
+    display: inline;
+}
+.linefoot{
+    color: #4D5053;
+    margin-top: 134px;
+}
+.footercopyright{
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    color: #4D5053;
+    font-weight: normal;
+    padding-top: 2%;
+}
